@@ -28,4 +28,4 @@ This code is licensed under the Unlicense. For more information, click [here](ht
 
 ## Support Me
 You can support me by making a donation through ko-fi. Click the button below to do so. Button not showing up? Click [here]().
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I3WLST)
+<br>[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I3WLST)
