@@ -31,4 +31,4 @@ No screenshots yet. Still working on getting those out.
 This code is licensed under the Unlicense. For more information, click [here](https://github.com/jasonballinger/raspi-templog/blob/master/LICENSE).
 ## Support Me
 You can support me by making a donation through ko-fi. Click the button below to do so. Button not showing up? Click [here]().
-<br>[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I3WLST)
+<br><br>[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I3WLST)
