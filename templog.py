@@ -23,6 +23,7 @@ def graph(temp):
     plt.plot(x,y)
     plt.draw()
 
+test_placeholder()
 while True:
     temp = cpu.temperature
     write_temp(temp)
