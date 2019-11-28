@@ -1,6 +1,10 @@
 # Raspberry Pi CPU Temperature Log
 [![CodeFactor](https://www.codefactor.io/repository/github/jasonballinger/raspi-templog/badge/master)](https://www.codefactor.io/repository/github/jasonballinger/raspi-templog/overview/master)
 <br>Created by Jason Ballinger, 2019
+## Developer Notes
+This is a section for notices that I put out. I will link all of these notices to issues and remove them from this README when an issue is closed.
+### Github Actions CI not working
+I am still working on setting up the CI for this repository and I have run into a few problems. I am coming from Travis CI and I am just working on getting some things set up. I should be able to get this out soon. The issue for this notice is #2 and can be found [here](https://github.com/jasonballinger/raspi-templog/issues/2).
 ## Installation
 You can install this code two ways. You can either clone the repository or install via **npm**. The directions for this are below.
 ### Before you start
