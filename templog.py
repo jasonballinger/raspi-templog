@@ -25,3 +25,4 @@ while True:
     write_temp(temp)
 #    graph(temp)
     plt.pause(1)
+    
