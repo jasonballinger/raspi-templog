@@ -5,6 +5,8 @@
 This is a section for notices that I put out. I will link all of these notices to issues and remove them from this README when an issue is closed.
 ### Github Actions CI not working
 I am still working on setting up the CI for this repository and I have run into a few problems. I am coming from Travis CI and I am just working on getting some things set up. I should be able to get this out soon. The issue for this notice is #2 and can be found [here](https://github.com/jasonballinger/raspi-templog/issues/2).
+## Reeport a Bug
+To report a bug, click [here](https://github.com/jasonballinger/raspi-templog/issues), click "new issue" and choose "bug report". Please then fill out the template and describe the issues that you are having.
 ## Installation
 You can install this code two ways. You can either clone the repository or install via **npm**. The directions for this are below.
 ### Before you start
@@ -23,8 +25,6 @@ To clone the repository, you have two options.
 I haven't set up the ```pip``` package yet. I will update this README when I have.
 ## Tutorial
 Now that you have installed the program, let's go ahead and teach you how to use it. By modifying the **crontab** document, you have made it so that the script will start on startup. If you would like to see the CPU Temperature data, just go ahead and open a Terminal window and type ```cat cpu_temp.csv```. If you would like to see a graph, go to your Terminal window and type ```mousepad /home/pi/Documents/raspi-templog/templog.py``` and uncomment line 32 or ```graph(temp)```.
-## Code Breakdown
-I didn't really comment my code this time around, so here's a little bit of a breakdown. Lines 1-3 are just imports, so nothing really fancy. Line 5 is a variable making it so that the code doesn't stretch all over the screen and I can type ```cpu``` instead of ```CPUTemperature``` Lines 7-9 initialize the plotting mechanism. Lines 11-13 log the data to a CSV file. Lines 15-21 graph the data and 23-27 is a while loop that keeps this all running. Line 26 is commented out by default. But, if you would like to see a graph instead of a line, go ahead and uncomment that. This log updates every second (1000 milliseconds).
 ## Screenshots
 No screenshots yet. Still working on getting those out.
 ## License
