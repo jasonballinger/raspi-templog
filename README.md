@@ -25,6 +25,8 @@ To clone the repository, you have two options.
 I haven't set up the ```pip``` package yet. I will update this README when I have.
 ## Tutorial
 Now that you have installed the program, let's go ahead and teach you how to use it. By modifying the **crontab** document, you have made it so that the script will start on startup. If you would like to see the CPU Temperature data, just go ahead and open a Terminal window and type ```cat cpu_temp.csv```. If you would like to see a graph, go to your Terminal window and type ```mousepad /home/pi/Documents/raspi-templog/templog.py``` and uncomment line 32 or ```graph(temp)```.
+### A quick reminder
+If using Raspbian Jessie or previous, replace ```mousepad``` with ```leafpad```.
 ## Screenshots
 No screenshots yet. Still working on getting those out.
 ## License
