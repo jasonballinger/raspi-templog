@@ -1,5 +1,6 @@
 # Raspberry Pi CPU Temperature Log
 [![CodeFactor](https://www.codefactor.io/repository/github/jasonballinger/raspi-templog/badge/master)](https://www.codefactor.io/repository/github/jasonballinger/raspi-templog/overview/master)
+![.github/workflows/styleCheck.yml](https://github.com/jasonballinger/raspi-templog/workflows/.github/workflows/styleCheck.yml/badge.svg?branch=master&event=push)
 <br>Created by Jason Ballinger, 2019
 ## Developer Notes
 Any important items that you need to know about.
