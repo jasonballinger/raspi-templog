@@ -4,7 +4,7 @@
 <br>Created by Jason Ballinger, 2019
 ## Developer Notes
 Any important items that you need to know about.
-## Reeport a Bug
+## Report a Bug
 To report a bug, click [here](https://github.com/jasonballinger/raspi-templog/issues), click "new issue" and choose "bug report". Please then fill out the template and describe the issues that you are having.
 ## Installation
 You can install this code two ways. You can either clone the repository or install via **npm**. The directions for this are below.
