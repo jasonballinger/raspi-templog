@@ -1,2 +1,11 @@
   name: Python Style Checker
   uses: andymckay/pycodestyle-action@0.1.3
+  on: [push]
+  jobs:
+    job_id:
+      name: Python Style Checker
+      runs-on: [ubuntu-latest]
+      run:
+        pip install --upgrade-pip
+        pip install pycodestyle
+        pycodestyle templog.py
