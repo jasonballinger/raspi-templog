@@ -1,6 +1,5 @@
 --- 
 jobs: 
-  runs-on: ubuntu-latest
   steps: 
     name: "Python Style Checker"
     run: |
