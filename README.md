@@ -18,7 +18,7 @@ To clone the repository, you have two options.
     * This is assuming that you have saved the cloned repository to your Documents folder, your username is "pi" and you haven't modified any file names.
 #### Installing via Terminal
 1. First, you're going to need to open a terminal window. Then, type ```cd /home/pi/Documents```. After this, type ```git clone https://github.com/jasonballinger/raspi-templog```.
-2. Secondly, type ```sudo crontab -e```. If you are asked, choose **nano** as your text editor. Scroll down to the bottom of this document and type ```reboot python3 /home/pi/Documents/raspi-templog/templog.py```.
+2. Secondly, type ```sudo crontab -e```. If you are asked, choose **nano** as your text editor. Scroll down to the bottom of this document and type ```@reboot python3 /home/pi/Documents/raspi-templog/templog.py```.
     * This is assuming that you have saved the cloned repository to your Documents folder, your username is "pi" and you haven't modified any file names.
 ### Installing via pip
 I haven't set up the ```pip``` package yet. I will update this README when I have.
