@@ -3,7 +3,7 @@
 ![.github/workflows/styleCheck.yml](https://github.com/jasonballinger/raspi-templog/workflows/.github/workflows/styleCheck.yml/badge.svg?branch=master&event=push)
 <br>Created by Jason Ballinger, 2019
 ## Developer Notes
-Any important items that you need to know about.
+The code in this repository is loosely based off of the [Raspberry Pi Organization's Tutorial](https://projects.raspberrypi.org/en/projects/temperature-log). However, this code will be actively maintained and issues reported will be looked at.
 ## Report a Bug
 To report a bug, click [here](https://github.com/jasonballinger/raspi-templog/issues), click "new issue" and choose "bug report". Please then fill out the template and describe the issues that you are having.
 ## Installation
