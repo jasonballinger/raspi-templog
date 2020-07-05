@@ -8,12 +8,15 @@ plt.ion()
 x = []
 y = []
 
+
 def test_placeholder():
     pass
+
 
 def write_temp(temp):
     with open("/home/pi/Documents/raspi-templog/cpu_temp.csv", "a") as log:
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(temp)))
+
 
 def graph(temp):
     y.append(temp)
@@ -23,10 +26,10 @@ def graph(temp):
     plt.plot(x,y)
     plt.draw()
 
+
 test_placeholder()
 while True:
     temp = cpu.temperature
     write_temp(temp)
 #    graph(temp)
     plt.pause(1)
-    
