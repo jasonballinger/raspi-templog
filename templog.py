@@ -15,7 +15,7 @@ def test_placeholder():
 
 def write_temp(temp):
     with open("/home/pi/Documents/raspi-templog/cpu_temp.csv", "a") as log:
-        log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(temp)))
+        log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"), str(temp)))
 
 
 def graph(temp):
@@ -23,7 +23,7 @@ def graph(temp):
     x.append(time())
     plt.clf()
     plt.scatter(x,y)
-    plt.plot(x,y)
+    plt.plot(x, y)
     plt.draw()
 
 
